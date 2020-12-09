@@ -39,7 +39,7 @@ setup(
     zip_safe=False,
     install_requires=[
         "setuptools",
-        "senaite.core",
+        "valer.core",
     ],
     extras_require={
         "test": [

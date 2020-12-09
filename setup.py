@@ -14,7 +14,7 @@ with open("docs/Changelog.rst", "r") as fh:
     long_description += fh.read()
 
 setup(
-    name="senaite.core.listing",
+    name="valer.core.listing",
     version=version,
     description="ReactJS powered listing tables for SENAITE LIMS",
     long_description=long_description,
@@ -26,9 +26,11 @@ setup(
         "Framework :: Zope2",
     ],
     keywords=['senaite', 'lims', 'opensource', 'reactjs'],
-    author="SENAITE Foundation",
-    author_email="hello@senaite.com",
-    url="https://github.com/senaite/senaite.core.listing",
+    
+    author="Valer Group LLC",
+    author_email="valerio.zhang@valer.us",
+    url="https://github.com/valeriozhang/senaite.core.listing",
+    
     license="GPLv2",
     packages=find_packages("src", exclude=["ez_setup"]),
     package_dir={"": "src"},

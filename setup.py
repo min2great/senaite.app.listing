@@ -2,7 +2,7 @@
 
 from setuptools import setup, find_packages
 
-version = "1.5.3rc7"
+version = "1.5.3rc8"
 
 with open("docs/About.rst", "r") as fh:
     long_description = fh.read()
@@ -39,7 +39,7 @@ setup(
     zip_safe=False,
     install_requires=[
         "setuptools",
-        "valer.core==1.3.5rc7",
+        "valer.core==1.3.5rc8",
     ],
     extras_require={
         "test": [
